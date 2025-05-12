@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
     return (
-        <div className="navbar fixed max-w-[1440px] z-50 mx-auto opacity-100 rounded-lg">
+        <div className="navbar fixed max-w-[1440px] bg-gradient-to-r from-[#0803b7] to-[#28899c] z-50 mx-auto opacity-90 rounded-lg">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

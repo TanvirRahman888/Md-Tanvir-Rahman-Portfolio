@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
     return (
@@ -12,11 +11,26 @@ const Hero = () => {
                 <div className='col-span-2'>
                     <h1 className="text-5xl font-bold"><span className='text-amber-500'>M</span>d <span className='text-amber-500'>T</span>anvir <span className='text-amber-500'>R</span>ahman</h1>
                     <h2 className="text-3xl font-medium"><span className='text-amber-500'>F</span>rontend <span className='text-amber-500'>D</span>eveloper</h2>
+                    <TypeAnimation
+                    className='text-blue-400 text-xl'
+                        sequence={[
+                            'Contact me for Website Design',
+                            1000,
+                            'Contact me for Email Template Design',
+                            1000,
+                            'Contact me for Frontend Development',
+                            1000
+                        ]}
+                        wrapper="span"
+                        speed={50}
+                        style={{ fontSize: '2em', display: 'inline-block' }}
+                        repeat={Infinity}
+                    />
                     <p className="py-6 text-justify">
                         Passionate Front-End Developer skilled in React.js, Tailwind CSS, and JavaScript (ES6), with hands-on experience building responsive, user-friendly web applications and integrating Firebase authentication. Proficient in backend technologies like Node.js, Express.js, and MongoDB, with strong soft skills in communication, teamwork, and problem-solving.
 
                     </p>
-                    
+
                     <a
                         href="https://drive.google.com/file/d/1kIzq-NLLtdxuaCITa4-28bNKAgkniH3r/view?usp=sharing"
                         target="_blank"
