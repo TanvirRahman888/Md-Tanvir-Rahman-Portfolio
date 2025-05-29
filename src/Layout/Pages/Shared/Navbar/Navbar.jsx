@@ -18,7 +18,8 @@ const Navbar = () => {
                         <Link to="contact" smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 rounded-xl mx-2 cursor-pointer">Contact</Link>
                     </ul>
                 </div>
-                <img src="https://i.imgur.com/WRGI6p1.png" className='h-12 bg-amber-500 hover:bg-amber-600 rounded-xl' alt="" />
+                {/* <img src="https://i.imgur.com/WRGI6p1.png" className='h-12 bg-amber-500 hover:bg-amber-600 rounded-xl' alt="" /> */}
+                <p className='text-3xl font-bold px-2.5'><span className='text-4xl font-bold text-amber-600'>T</span>anvir <span className='text-4xl font-bold text-amber-600'>R</span>ahman</p>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
