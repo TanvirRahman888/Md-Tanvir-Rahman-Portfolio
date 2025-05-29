@@ -107,7 +107,7 @@ const Contact = () => {
                                 className="border-2 border-amber-200 p-2 w-full h-32 resize-none rounded-xl"
                                 placeholder="Your Message"
                             ></textarea>
-                            <button onClick={handleSubmit} className="btn btn-neutral mt-4">
+                            <button onClick={handleSubmit} className="btn bg-amber-500 hover:bg-amber-600 mt-4">
                                 Submit
                             </button>
                         </fieldset>

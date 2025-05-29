@@ -2,7 +2,7 @@
 const Projects = () => {
     return (
         <div className="mx-auto border-2 border-amber-500 rounded-xl my-7 p-5" id="projects">
-            <p className="text-2xl mx-auto text-center my-5 ">My Projects</p>
+            <p className="text-2xl mx-auto font-bold text-center my-5 ">My Projects</p>
             <hr className="h-1 mx-5 my-5 text-amber-500" />
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
                 <div>

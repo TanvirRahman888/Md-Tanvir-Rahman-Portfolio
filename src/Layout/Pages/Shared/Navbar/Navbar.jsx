@@ -12,24 +12,24 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <Link to="about" smooth={true} duration={500} className="btn bg-amber-500 rounded-xl mx-2 cursor-pointer">About Me</Link>
-                        <Link to="skills" smooth={true} duration={500} className="btn bg-amber-500 rounded-xl mx-2 cursor-pointer">Skills</Link>
-                        <Link to="projects" smooth={true} duration={500} className="btn bg-amber-500 rounded-xl mx-2 cursor-pointer">Projects</Link>
-                        <Link to="contact" smooth={true} duration={500} className="btn bg-amber-500 rounded-xl mx-2 cursor-pointer">Contact</Link>
+                        <Link to="about" smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 rounded-xl mx-2 cursor-pointer">About Me</Link>
+                        <Link to="skills" smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 rounded-xl mx-2 cursor-pointer">Skills</Link>
+                        <Link to="projects" smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 rounded-xl mx-2 cursor-pointer">Projects</Link>
+                        <Link to="contact" smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 rounded-xl mx-2 cursor-pointer">Contact</Link>
                     </ul>
                 </div>
-                <img src="https://i.imgur.com/WRGI6p1.png" className='h-12 bg-amber-500 rounded-xl' alt="" />
+                <img src="https://i.imgur.com/WRGI6p1.png" className='h-12 bg-amber-500 hover:bg-amber-600 rounded-xl' alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <Link to="about" smooth={true} duration={500} className="btn bg-amber-500 rounded-xl mx-2 cursor-pointer">About Me</Link>
-                    <Link to="skills" smooth={true} duration={500} className="btn bg-amber-500 rounded-xl mx-2 cursor-pointer">Skills</Link>
-                    <Link to="projects" smooth={true} duration={500} className="btn bg-amber-500 rounded-xl mx-2 cursor-pointer">Projects</Link>
-                    <Link to="contact" smooth={true} duration={500} className="btn bg-amber-500 rounded-xl mx-2 cursor-pointer">Contact</Link>
+                    <Link to="about" smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 rounded-xl mx-2 cursor-pointer">About Me</Link>
+                    <Link to="skills" smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 rounded-xl mx-2 cursor-pointer">Skills</Link>
+                    <Link to="projects" smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 rounded-xl mx-2 cursor-pointer">Projects</Link>
+                    <Link to="contact" smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 rounded-xl mx-2 cursor-pointer">Contact</Link>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-amber-500 rounded-xl">GitHub</a>
+                <a className="btn bg-amber-500 hover:bg-amber-600 rounded-xl">GitHub</a>
             </div>
         </div>
 
